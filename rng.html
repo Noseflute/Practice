@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <script>
+var one = Math.floor(Math.random()*100);
+var two = Math.floor(Math.random()*100);
+
+if (one>two) {
+  document.write(one);
+  //document.getElementById("one").innerHTML = firstNumber;
+}
+else {
+  document.write(two);
+  //document.getElementById("two").innerHTML = secondNumber;
+}
+    </script>
+  </head>
+  <body>
+    <h1 id="one">One is: <script type="text/javascript">document.write(one)</script> </h1>
+    <h1 id="two">Two is: <script type="text/javascript">document.write(two)</script> </h1>
+  </body>
+</html>

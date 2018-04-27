@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <script>
+
+    </script>
+  </head>
+  <body>
+    <input type="text" id="name">
+    <button onclick="addName()">Add Name</button>
+    <button onclick="showAll()">Show all Name</button>
+    <h1 id="placeholder"></h1>
+    
+    
+    <script>
+      var arr = [];  //keep global
+
+function addName() {
+	var x = document.getElementById('name').value;
+  document.getElementById('name').value = " ";
+	arr.push(x);
+	document.getElementById('placeholder').innerHTML =  arr;
+
+  
+}
+      
+
+      
+      
+    </script>
+  </body>
+
+</html>
